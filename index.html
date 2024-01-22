@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hockey’s</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <header class="w-[85%] mx-auto ">
+    <nav class="mt-6">
+      <div class="navbar justify-between bg-base-100">
+        <div class=" ">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Home</a>
+              </li>
+              <li><a>About</a></li>
+              <li><a>Pages</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact</a></li>
+
+            </ul>
+          </div>
+          <h2><a class="text-2xl lg:text-4xl font-extrabold text-[#131318]">Hockey<span
+                class="text-[#FF4240]">’</span>s</a></h2>
+
+        </div>
+        <div class=" hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a class="text-[#FF4240]">Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Pages</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </div>
+        <div class=" gap-3">
+          <div class="hidden lg:flex">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+            </svg>
+          </div>
+          <a class="btn bg-[#FF4240] text-white text-sm lg:text-xl font-black">Get Ticket</a>
+        </div>
+      </div>
+    </nav>
+    <section class="mt-7">
+      <div class="carousel w-full ">
+        <!--------Slider no-1------->
+        <div id="slide1" class="carousel-item relative bg-cover lg:h-[540px] h-[200px] w-full bg-[url(images/1.png)]">
+
+          <div class="bg-[#131318] hidden lg:grid ml-auto mr-[5%] mt-auto mb-[5%] text-white w-[40%] h-[20%] p-4">
+            <h2 class="text-2xl font-bold mb-2">Meet all the heroes from the field</h2>
+            <p>"Experience the adrenaline-pumping excitement of the ultimate ice showdown in our latest hockey sensation
+            </p>
+          </div>
+
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle">❮</a>
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <!--------Slider no-2------->
+
+        <div id="slide2" class="carousel-item relative bg-cover lg:h-[540px] h-[200px] w-full bg-[url(images/3.png)]">
+
+          <div class="bg-[#131318] hidden lg:grid ml-auto mr-[5%] mt-auto mb-[5%] text-white w-[40%] h-[20%] p-4">
+            <h2 class="text-2xl font-bold mb-2">Meet all the heroes from the field</h2>
+            <p>"Experience the adrenaline-pumping excitement of the ultimate ice showdown in our latest hockey sensation
+            </p>
+          </div>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a>
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+
+      </div>
+      <section>
+        <div class="bg-[#131318]  lg:hidden grid  mt-3  text-white  p-7">
+          <h2 class="text-2xl font-bold mb-2">Meet all the heroes from the field</h2>
+          <p>"Experience the adrenaline-pumping excitement of the ultimate ice showdown in our latest hockey sensation
+          </p>
+        </div>
+      </section>
+    </section>
+
+
+  </header>
+  <main>
+
+  </main>
+  <footer>
+
+  </footer>
+</body>
+
+</html>
